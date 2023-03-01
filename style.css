@@ -12,7 +12,14 @@
 }
 
 
-
+:root {
+    --dash-primary: #1b72e8;
+    --dash-secondary: #051e34;
+    --dash-special: #fe8f01;
+    --dash-dark: #5b5858;
+    --dash-light: #f8f9fa;
+    --dash-dark-soft: #e4e5e4;
+}
 
 
 
@@ -20,11 +27,27 @@
     position: sticky;
     top: 0;
     width: 100%;
-    height: 60px;
     line-height: 60px;
     background-color: lightslategray;
 
 }
+#app_header .row {
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+#app_header ul {
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
 
 
 #main_wrapper {
