@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.debug * {
+    border: 1px dashed;
+}
+
+
+
+#app_header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: lightslategray;
+
+}
+
+
+#main_wrapper {
+    height: calc(100vh - 4rem);
+}
+
+#main_container {
+    height: 100%;
+    width: calc(100vw - 60px);
+}
+
+
+
+#sidebar {
+    height: 100%;
+    width: 60px;
+
+}
