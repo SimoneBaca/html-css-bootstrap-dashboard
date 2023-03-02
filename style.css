@@ -38,6 +38,9 @@
     color: #fe8f01;
 }
 
+.hidden {
+    display: none;
+}
 
 
 .text_sm {
@@ -68,6 +71,7 @@
 #main_container {
     height: 100%;
     width: calc(100vw - 60px);
+    overflow-y: auto;
 }
 
 
@@ -76,6 +80,26 @@
     width: 60px;
 
 }
+#cards .icon {
+    display: inline-block;
+    width: 2rem;
+    aspect-ratio: 1 / 1;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .offcanvas_right #offcanvasRight {
     width: 100%;
 }
