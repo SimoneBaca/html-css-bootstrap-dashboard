@@ -1,7 +1,5 @@
 
-.debug * {
-    border: 1px dashed;
-}
+
 
 .debug #overview {
     height: 150px;
@@ -48,8 +46,7 @@
 }
 
 #app_header {
-    position: sticky;
-    top: 0;
+   
     width: 100%;
     line-height: 60px;
    
@@ -85,19 +82,14 @@
     width: 2rem;
     aspect-ratio: 1 / 1;
     font-size: 1rem;
+    background-image: url("./img/class-avatar.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.card-img-top{
+    height: 400px;
+}
 
 
 .offcanvas_right #offcanvasRight {
@@ -126,6 +118,7 @@
     
     #sidebar {
         width: 150px;
+        background-image: url("./img/sidebar-bg.png");
     }
 
     #main_container {
@@ -135,21 +128,34 @@
     #app_header img.show {
         display: none;
     }
-
     #app_header img.hidden,
     #app_header i.hidden
     {
         display: inline-flex;
     }
-
+    
 }
 
 
 @media screen and (min-width: 1200px) {
-    
+    #cards tbody tr td:first-of-type {
+        width: 40%;
+    }
 }
 
 
 @media screen and (min-width: 1400px) {
-    
+    #overview span.show
+    {
+        display: none;
+    }
+
+    #overview span.hidden
+    {
+        display: inline-flex;
+    }
+
+    #cards tbody tr td:first-of-type {
+        width: 60%;
+    }
 }
