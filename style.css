@@ -79,14 +79,14 @@
 }
 
 
+
 #cards .icon {
     display: inline-block;
-    width: 2rem;
-    aspect-ratio: 1 / 1;
-    font-size: 1rem;
     background-image: url("./img/class-avatar.jpg");
     background-position: center;
     background-size: cover;
+    width: 1rem;
+    aspect-ratio: 1 / 1;
 }
 
 .card-img-top{
